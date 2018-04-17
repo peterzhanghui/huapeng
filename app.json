@@ -1,0 +1,13 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fc0",
+    "navigationBarTitleText": "华鹏陶瓷",
+    "navigationBarTextStyle":"black",
+    "enablePullDownRefresh": true
+  }
+}

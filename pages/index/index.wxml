@@ -1,0 +1,22 @@
+<!--index.wxml-->
+<view class="container">
+  <view class='containerBg'>
+    <view class='containerBgTop'>
+    </view>
+  </view>
+  <view class='containerBox'>
+    <view class='infItem'>
+      <image class='logo' src='/assets/img/logo.jpg'></image>
+      <text class='shopName'>华鹏陶瓷</text>
+      <text class='shopSddress'>\n民权县六合锦园南门西五十米</text>
+    </view>
+    <view class='infItem'>
+      <text class='title'>店铺展示</text>
+      <image style='width: 130px; height: 130px; float:left;' src='/assets/img/zhanshi/bbg3_01.png'></image>
+      <image style='width: 130px; height: 130px; float:left;' src='/assets/img/zhanshi/bbg3_02.png'></image>
+    </view>
+    <view class='containerMap'>
+      <map class='map' id="map" longitude="115.170084" latitude="34.645696" scale="17" markers="{{markers}}" bindmarkertap="markertap"></map>
+    </view>
+  </view>
+</view>
