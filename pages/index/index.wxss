@@ -77,3 +77,11 @@
 .usermotto {
   margin-top: 200px;
 }
+.title{display: block}
+.show_img{
+  width: 120px; 
+  height: 120px; 
+  float:left;
+  border-radius: 4px;
+  margin: 4px;
+}

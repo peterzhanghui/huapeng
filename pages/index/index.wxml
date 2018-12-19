@@ -10,10 +10,10 @@
       <text class='shopName'>华鹏陶瓷</text>
       <text class='shopSddress'>\n民权县六合锦园南门西五十米</text>
     </view>
-    <view class='infItem'>
+    <view class='infItem clear'>
       <text class='title'>店铺展示</text>
-      <image style='width: 130px; height: 130px; float:left;' src='/assets/img/zhanshi/bbg3_01.png'></image>
-      <image style='width: 130px; height: 130px; float:left;' src='/assets/img/zhanshi/bbg3_02.png'></image>
+      <image bindtap='godetail' data-id="1" class='show_img' src='/assets/img/zhanshi/bbg3_01.png'></image>
+      <image bindtap='godetail' data-id="2" class='show_img' src='/assets/img/zhanshi/bbg3_02.png'></image>
     </view>
     <view class='containerMap'>
       <map class='map' id="map" longitude="115.170084" latitude="34.645696" scale="17" markers="{{markers}}" bindmarkertap="markertap"></map>

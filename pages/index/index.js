@@ -50,6 +50,12 @@ Page({
       url: '../logs/logs'
     })
   },
+  godetail: function(event) {
+    console.log(event.currentTarget.dataset.id)
+    wx.navigateTo({ 
+      url: '/pages/index/detail?id=' + event.currentTarget.dataset.id 
+    })
+  },
   onLoad: function () {
     if (app.globalData.userInfo) {
       this.setData({

@@ -1,0 +1,3 @@
+<!--pages/index/detail.wxml-->
+<text>图片详情</text>
+<image class='show_img' src='/assets/img/zhanshi/bbg3_01.png'></image>
